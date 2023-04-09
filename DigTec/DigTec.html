@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!--BOOTSTRAP_5-->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+	<!--fontawesome-->
+	<script src="https://kit.fontawesome.com/c601931464.js" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="css/stylesheet.css">
+
+	<title>DigTec</title>
+</head>
+<body>
+
+	<section class="sec-1">
+		<div class="container-fluid"> <!--container ini.-->
+			<div class="row" style="border: 2px solid red"> <!--row principal-->
+				<div class="col-sm-6 mt-5"> <!--col 1 inicio-->
+					<img width="150" class="img-fluid" src="imagens/logo.png">
+					<span style="color:white;" class="display-3">DigTec</span>
+				</div> <!--col 1 fim-->
+
+
+				<div class="col-sm-6 mt-5 x"> <!--col 2 inicio-->
+
+				<div class="row justify-content-start"><!--sub row-->
+					<div class="col-sm-9"> <!--sub col-->
+						<div id="ex" class="collapse mr-3 bg-nav"> <!--collapse-->
+
+							<div style="border: 2px solid red;" class="offcanvas offcanvas-start" id="ex"> <!--canva-->
+								
+							<div class="offcanvas-body canv"> <!--canvas body-->
+							<ul class="nav flex-column bg-dark" role="tablist">
+								<li class="nav-item">
+									<a data-bs-toggle="collapse" data-bs-target="#Quem-somos" class="nav-link" href="#">Quem somos</a>
+								</li>
+								<li class="nav-item">
+									<a data-bs-toggle="collapse" data-bs-target="#Janela-Virtual" class="nav-link" href="#Janela Virtual">Janela Virtual</a>
+								</li>
+								<li class="nav-item">
+									<a data-bs-target="#Login" data-bs-toggle="collapse" class="nav-link" href="#">Login</a>
+								</li>
+							</ul>
+
+							<div style="border: 2px solid red;" id="Quem-somos" class="collapse mt-2">
+								<div style="color:white;" class="p-4 bg-dark">
+								<h1>DigTec</h1>
+								<p>Cras dictum, diam vitae auctor finibus, quam nibh imperdiet arcu, ut fringilla est diam at massa. Maecenas odio ex, porta nec nibh in, gravida dictum odio. Maecenas venenatis lobortis odio consectetur tempus. Nunc vestibulum rutrum volutpat.</p>
+
+								<button class="btn btn-sm btn-info justify-content-center">Saiba mais</button>
+								</div>
+							</div>
+
+							<div id="Janela-Virtual" style="border: 2px solid red;" class="collapse mt-2">
+								<div style="color:white;" class="row p-4">
+									<div class="col-6">
+										<img class="img-fluid" src="imagens/cidade1.png">
+										<span class="bg-dark">Mundo1</span>
+									</div>
+
+									<div class="col-6">
+										<img class="img-fluid" src="imagens/cidade2.png">
+										<span class="bg-dark">Mundo2</span>
+									</div>
+
+									<div class="row mt-3">
+										<p class="display-5 bg-dark" style="text-align:center;">Conheça nossos mundos virtuais.</p>
+									</div>
+
+								</div>
+								<button class="btn btn-sm btn-info justify-content-center">Saiba mais</button>
+							</div>
+
+
+							<div style="border: 2px solid red; color: white;" class="collapse mt-2 p-4 bg-dark" id="Login">
+								
+								<form >
+									<label>Nome:</label> <br> 
+									<input type="text" placeholder="Seu nome aqui"><br>
+									<label>Senha:</label><br>
+									<input type="password" placeholder="Sua senha aqui">
+									<br><br>
+									<button class="btn btn-info btn-md">Logar</button>
+
+								</form>
+								
+							</div>
+							
+							</div><!--canvas body fim-->
+						</div> <!--canva fim-->
+						</div> <!--collapse-->
+					</div> <!--sub col-->
+				
+
+					<div class="col-sm-3">
+						<button type="button" data-bs-toggle="collapse" data-bs-target="#ex" class="btn btn-lg bg-info">
+							<i style="color:white" class="fa-solid fa-bars-staggered"></i>
+						</button>
+					</div>
+				</div> <!--sub row-->	 
+				</div> <!--col 2 fim-->
+			</div> <!--row principal fim-->
+		</div> <!--container fim-->
+
+		<div class="container dv-1">
+			<div class="row align-items-center">
+				<div class="col-8 cor p-2" style="border:2px solid red; font-size: 20px;">
+					<p style="color:white;">
+					Phasellus aliquet lectus orci, porta hendrerit risus fermentum in. Ut laoreet tristique volutpat. Cras placerat tristique urna, sed ultricies nibh consequat id. vulputate a, sodales facilisis metus.
+				</p>
+
+				<p style="color:white;" class="h6">Faça diferente, seja uma nova pessoa.</p>
+				</div>
+
+				<div class="col-4 align">
+					<img class="img-fluid p-2" width="300" src="imagens/img1.png">
+				</div>
+
+			</div>
+		</div>
+
+	</section> <!--sec-1 fim-->
+
+	<section class="sec-2"> <!--sec-2-->
+		<div id="demo" class="carousel slide" data-bs-ride="carousel"> <!--carousel-->
+		 	
+			<div class="carousel-indicators"> <!--indicadores-->
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+
+				<button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+			</div>  <!--indicadores fim-->
+
+			<div class="carousel-inner"> <!--slide-->
+				<div class="carousel-item active justify-content-center"> <!--item inicio-->
+					<div class="container"> <!--container inicio-->
+					<div class="row"> <!--row-->
+					<h1 class="display-5" style="color:white; text-align:end;">Lorem Ipsum</h1>
+					<div class="col-5 align-items-center align-self-center">
+					<img width="300" src="imagens/conexao.png" class="img-fluid" >
+					</div>
+
+					<div class="col-4 align-self-center">
+						<p class="p-2" style="color:white;">Eos repellendus consectetur eum temporibus repellat qui dolores perferendis ut Quis quam. </p>
+					</div>
+					</div> <!--row fim-->
+					</div> <!--container fim-->
+				</div> <!--item fim-->
+
+				<div class="carousel-item justify-content-center">
+					<div class="container"> <!--div container-->
+					<div class="row"> <!--row-->
+						<h1 class="display-5" style="color:white; text-align:end;">Lorem Ipsum</h1>
+
+						<div class="col-5 align-self-center">
+						<img class="img-fluid" src="imagens/binario.png">
+						</div>
+
+						<div class="col-4 align-self-center">
+							<p style="color:white;" class="p-2">
+								Eos repellendus consectetur eum temporibus repellat qui dolores perferendis ut Quis quam.
+							</p>
+						</div>
+					</div> <!--row fim-->
+					</div> <!--container fim-->
+				</div> <!--item fim-->
+			</div> <!--slide fim-->
+
+			 
+			 <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+			 	<span class="carousel-control-prev-icon"></span>
+			 </button>
+
+			 <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+			 	<span class="carousel-control-next-icon"></span>
+			 </button>
+
+		</div> <!--carousel fim-->
+		<div id="d1" class="container mt-4">
+			<div style="color:white;" class="row">
+				<div class="col">
+					<h1>Mundo1</h1>
+					<br>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In nibh lorem, sollicitudin vel justo quis, congue iaculis ex. Pellentesque a elit sapien. Aliquam augue tortor, placerat aliquam sollicitudin eget, mollis nec velit. Aenean quis ante at nunc suscipit maximus. </p>
+				</div>
+				<div class="col">
+					<h1>Mundo2</h1>
+					<br>
+					<p>Donec ultrices est id magna vestibulum, at condimentum mi vehicula. Etiam odio leo, auctor quis enim at, finibus rhoncus nulla. Donec ornare sit amet lectus vel semper. In congue nec leo imperdiet scelerisque. Vestibulum at erat arcu.</p>
+				</div>
+				<div class="row mt-3">
+					<button style="color:white;" class="btn btn-xl btn-dark">Saiba mais</button>	
+				</div>
+			</div>
+		</div>
+	</section> <!--sec-2 fim-->
+
+	<section>
+		<div class="container">
+			<i class="fa-brands fa-instagram"></i>
+			<span>@digtec</span>
+			<br>
+			<i class="fa-solid fa-earth-americas"></i>
+			<a>digtec.com</a>
+		</div>
+	</section>
+
+</body>
+</html>

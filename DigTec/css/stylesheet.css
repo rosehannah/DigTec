@@ -1,0 +1,68 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.sec-1{
+	background-image: url("../imagens/bg1.png");
+	background-size: cover;
+	height: 100vh;
+}
+
+.x{
+	margin-top: 20px;
+}
+
+.bg-nav{
+	background-color: #0B2463;
+	justify-content: end;
+
+}
+
+.d-1{
+	margin-top: 150px;
+}
+
+div.polaroid {
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+}
+
+div.container {
+  text-align: center;
+  padding: 10px 20px;
+}
+
+.dp{
+	display: inline-block;
+}
+
+.dv-1{
+	border: 2px solid red;
+	margin-top: 100px;
+}
+
+.align{
+	text-align: end;
+}
+
+.cor{
+	background-color: #060344;
+}
+
+.sec-2{
+	background-color: #006380;
+	background-size: cover;
+	height: 100vh;
+}
+
+.grad{
+	background-image: linear-gradient(to-rigth #4055FA,#091151);
+}
+
+.canv{
+	background-image: url("../imagens/bg-bina.png");
+}
